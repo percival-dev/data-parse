@@ -1,0 +1,5 @@
+import pandas as pd
+data = pd.read_csv("C:/Users/preet/Downloads/retentlyfb.csv")
+data
+data.columns
+data.Email
