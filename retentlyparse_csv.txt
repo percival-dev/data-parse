@@ -1,0 +1,11 @@
+import csv
+file = open("C:/Users/preet/Downloads/retentlyfb.csv")
+csvreader = csv.reader(file)
+header = next(csvreader)
+print(header)
+rows = []
+for row in csvreader:
+    rows.append(row)
+
+print(rows)
+file.close()
